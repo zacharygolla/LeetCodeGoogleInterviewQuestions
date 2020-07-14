@@ -14,7 +14,6 @@ def findSingleNumber(nums=[]):
     # print(dic.pop())
 
     # solution using bitwise manipulation
-
     a = 0
     for i in nums:
         a ^= i
